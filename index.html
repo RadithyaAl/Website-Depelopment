@@ -2,9 +2,29 @@
 <html>
     <head>
         <title>my first github project</title>
+        <style>
+            .navigation-bar {
+                background-color: blue;
+                position: fixed;
+                height: 70px;
+                width: 100%;
+            }
+            .Logokamiku {
+                height: 60px;
+                margin-top: 5px;
+                margin-left: 10px;
+            }
+        </style>
     </head>
     <body>
-        <p>adfghakjh</p>
-        <button>abatombolll</button>
+        <div class="navigation-bar"><img src="Images/Logo-Kamiku.png" class="Logokamiku logokamikuJs" ></div>
+
+
+        <script>
+            document.querySelector(".logokamikuJs").onclick = function(){
+                location.href= "https://google.com";
+            }
+
+        </script>
     </body>
 </html>
